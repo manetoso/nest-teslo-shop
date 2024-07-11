@@ -33,10 +33,12 @@ docker-compose up -d
 yarn start:dev
 ```
 
-7. Populate database running this endpoint
+7. Populate database running the endpoint `http://localhost:${PORT}/api/seed` and unzip the content of the file `products.zip` inside the `static/products` folder in the root of the project.
+
+8. Access the static content throught the endpoint
 
 ```
-http://localhost:3000/api/seed
+http://localhost:${PORT}/api/files/product/${image-name-with-extension}
 ```
 
 ## Stack used
