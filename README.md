@@ -33,6 +33,12 @@ docker-compose up -d
 yarn start:dev
 ```
 
+7. Populate database running this endpoint
+
+```
+http://localhost:3000/api/seed
+```
+
 ## Stack used
 
 - Postgres
